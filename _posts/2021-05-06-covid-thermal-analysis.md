@@ -44,7 +44,7 @@ The third, and final action involved solving the differential equation for time,
  
 $$ T(t) = T_{\infty} - (T_{\infty} - T_i) \cdot e^{\frac{-t}{m \cdot C_p \cdot R_{tot}}} $$
 
-$$ t = -m \cdot C_p \cdot R_{tot} \cdot \nl{\frac{T_{\infty} - T(t)}{T_{\infty} - T_i}} $$
+$$ t = -m \cdot C_p \cdot R_{tot} \cdot \ln{\frac{T_{\infty} - T(t)}{T_{\infty} - T_i}} $$
 
 As an extra step, an additional plot was made to show the variation of safe storage time in days with changing temperatures in Celsius.
 
