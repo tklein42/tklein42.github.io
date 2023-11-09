@@ -27,7 +27,7 @@ $$ R_{tot} = 6 \frac{K}{W} $$
 
 The second action was conducting an energy balance which once completed resulting in the following differential equations. The following equations are equivalent, the theta, also known as temperature excess, was just introduced to simplify the computation:
 
-$$ m*C_p*\frac{\partial \theta}{\partial t} = \frac{T_{\infty} - T(t)}{R_tot} $$
+$$ m \cdot C_p \cdot \frac{\partial \theta}{\partial t} = \frac{T_{\infty} - T(t)}{R_{tot}} $$
 
 The third, and final action involved solving the differential equation for time, t, to solve the number of days it would take for the storage container to go from -25 to -15 degrees with -10 degrees as the ambient storage temperature. The following results determined that roughly 1.7 days it would take to reach this temperature. Below are the following assumptions and resulting equation:
 
@@ -42,9 +42,9 @@ The third, and final action involved solving the differential equation for time,
 * No Heat Transfer Out:
   * The vaccine is colder than the surrounding temperature
  
-$$ T(t) = T_{\infty} - (T_{\infty} - T_i) * e^{\frac{-t}{m*C_p*R_{tot}}} $$
+$$ T(t) = T_{\infty} - (T_{\infty} - T_i) \cdot e^{\frac{-t}{m \cdot C_p \cdot R_{tot}}} $$
 
-$$ t = -m*C_p*R_{tot}*\naturallogarithm{\frac{T_{\infty} - T(t)}{T_{\infty} - T_i}} $$
+$$ t = -m \cdot C_p \cdot R_{tot} \cdot \nl{\frac{T_{\infty} - T(t)}{T_{\infty} - T_i}} $$
 
 As an extra step, an additional plot was made to show the variation of safe storage time in days with changing temperatures in Celsius.
 
