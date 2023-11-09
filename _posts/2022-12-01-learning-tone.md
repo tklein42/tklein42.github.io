@@ -4,7 +4,9 @@ mathjax: true
 layout: post
 categories: media
 ---
+
 One important aspect of human interaction is communication through facial expressions and tones used within speech. Because of this, the ability to of a humanoid robot to achieve natural lip synchronization is critical to improving human-robot interactions. This project aims to explore these areas and specifically provides recommendations for improving both humanoid robots’ hardware and software to mimic human speech better. In the realm of this project, we aim to improve lip synchronization using machine learning methods to mechanically actuate human speech sounds and link the auditory and visual output.
+
 
 ## Procedure
 
