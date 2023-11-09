@@ -5,7 +5,9 @@ layout: post
 categories: media
 ---
 One important aspect of human interaction is communication through facial expressions and tones used within speech. Because of this, the ability to of a humanoid robot to achieve natural lip synchronization is critical to improving human-robot interactions. This project aims to explore these areas and specifically provides recommendations for improving both humanoid robots’ hardware and software to mimic human speech better. In the realm of this project, we aim to improve lip synchronization using machine learning methods to mechanically actuate human speech sounds and link the auditory and visual output.
+
 ##
+
 Prior to establishing a baseline for experiments, it is important to discuss the audio preprocessing techniques used in the study. This begins with understanding the Fourier Transform, which decomposes a signal into its individual frequencies and amplitudes, thus converting the signal from the time to frequency domain. However, since most speech signals are non-periodic a Fast Fourier Transform is performed over several segments of the signal which then results in a spectrogram. This spectrogram provides a visualization of spectrum of frequencies over time. This spectrum of frequencies is, however, on a scale that doesn’t mimic the way humans hear sound, so the logarithmic transformation of a signal’s frequency, also known as the Mel Scale, aims to fix this problem. These Mel Scale Spectrograms are then converted to Mel Frequency Cepstral Coefficients (MFCCs), which are derived by applying a discrete cosine transformation. Once the audio is processed into a corresponding MFCC, it is only then that it may be used to train a neural network.
 
 ![MFCC](/assets/learn_tone_images/mfcc_example.jpg)
