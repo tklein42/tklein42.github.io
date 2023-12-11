@@ -7,7 +7,9 @@ categories: media
 
 A major hindrance to training high-performance automatic speech recognition systems is the collection of well-labeled and curated data, which up to this point has proven to be exceedingly expensive both in time and resources. This project aims to overcome this challenge by determining if automatic speech recognition systems that are solely trained on large amounts of synthetic speech perform at least as well as systems trained on actual human speech. In conjunction, this project also aims to identify the best mechanisms to produce a corpus of synthetic human speech that can rival that of actual human speech in speech recognition training. Successful synthesis could lead to the elimination of costs associated with data collection and curation, allowing for more resources to be directed towards the development and training of superior synthesis and recognition systems.
 
+
 ## Procedure
+
 ### Baseline
 
 For the baseline evaluation of our experiments, we first chose appropriate models for both speech synthesis and recognition. The selection process needed to incorporate components such as ease of access and performance due to the timeline given and the resources available to train large, impressive models. For speech synthesis, a synthesizer known as VITS, or variational inference with adversarial learning for end-to-end text-to-speech, was chosen. This synthesizer enables the input transcripts of text to be spoken in a variety of different pitches and rhythms to replicate the many variations in human speech. 
